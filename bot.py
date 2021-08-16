@@ -1,7 +1,7 @@
 import datetime
 import discord
 token = "ODc2OTY1MTc3NjA0NTk1NzYy.YRrvdw.b9kIlwD08BkLPYeRK6wXRFi7aCk"
-
+bot = commands.Bot(command_prefix=".",intents=discord.Intents.all())
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged in as')
