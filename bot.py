@@ -14,6 +14,6 @@ class MyClient(discord.Client):
             return
             
         if message.content.startswith('im sleepy'):
-            await message.reply("Hi there, you should set your alarm at: \n", datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=90) datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=180), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=270), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=360), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=450), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=540), "\n", mention_author=True)
+            await message.reply("Hi there, you should set your alarm at: \n", datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=90), "\n", datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=180), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=270), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=360), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=450), "\n",datetime.datetime.now()+ datetime.timedelta(minutes=15)+ datetime.timedelta(minutes=540), "\n", mention_author=True)
 client = MyClient()
 client.run('token')
